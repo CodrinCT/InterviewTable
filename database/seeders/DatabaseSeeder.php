@@ -14,6 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Departament::factory(45000)->has(Angajat::factory()->count(2), 'angajati')->create();
+        Departament::factory(1000)->has(Angajat::factory()->count(2), 'angajati')->create();
     }
 }

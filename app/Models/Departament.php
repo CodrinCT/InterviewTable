@@ -13,7 +13,7 @@ class Departament extends Model
 
      public function angajati()
     {
-        return $this->hasMany(Angajat::class, 'id_departament');
+        return $this->hasMany(Angajat::class, 'id_departament','id_departament');
     }
 
 

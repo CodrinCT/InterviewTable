@@ -30,6 +30,7 @@
                     </td>
                     <td><input class="form-control" type="text" placeholder="nume" name="nume" id="nume" /></td>
                     <td>
+                    <input class="form-control" type="text" placeholder="departament" name="departament" id="departament" />
                     </td>
                     <td>
                     </td>
